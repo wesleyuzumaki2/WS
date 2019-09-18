@@ -1,0 +1,21 @@
+.mesmalinha {
+    display: inline;
+    padding: 10px;
+}
+
+.bordas{
+    border-style: solid;
+    border-width: 1px;
+}
+
+.div{
+    max-width: 600px;
+    position: relative;
+    right: -310px;
+}
+
+.div2{
+    max-width: 700px;
+    position: relative;
+    right: -275px;
+}
