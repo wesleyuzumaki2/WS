@@ -4,18 +4,30 @@
 }
 
 .bordas{
-    border-style: solid;
-    border-width: 1px;
+    border: 0px solid;
 }
 
 .div{
-    max-width: 600px;
-    position: relative;
-    right: -310px;
+   text-align: center;
+    background-color: #F1F1F1;
 }
 
-.div2{
-    max-width: 700px;
+
+.menu{
+    background-color: #D7D4D4;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    
+}
+
+.logo{
+    width: 1300px;
+    height: 600px;
     position: relative;
-    right: -275px;
+   
+}
+
+div2{
+    float: right;
 }
