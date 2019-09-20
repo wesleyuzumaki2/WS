@@ -1,0 +1,41 @@
+.principal{
+    width: 920px;
+
+}
+.conteudo{
+    border: 20px solid red;
+    background-color: red;
+    width: 150px;
+    
+}
+
+.conteudo2{
+    border: 20px solid purple;
+    background-color: blue;
+    width: 150px;
+    float: left; 
+}
+
+.noticia{
+    background:#e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 5px;
+    float: left;
+}
+
+body{
+    background: #f4f4f4;
+}
+
+.img-galeria{
+    background: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
+
+.limpar{
+    clear: both;
+}
