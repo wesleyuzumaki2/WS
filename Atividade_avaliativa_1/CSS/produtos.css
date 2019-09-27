@@ -1,0 +1,20 @@
+body{
+    background-color: #E8E3E3;
+}
+
+.div{
+    background-color: white;
+    max-width: 80%;
+    position: relative;
+    right: -130px;
+}
+
+.borda2{
+    border-collapse: collapse;
+    border-color: #E8E3E3;
+}
+
+.texto{
+    text-decoration: none;
+    color: black;
+}
