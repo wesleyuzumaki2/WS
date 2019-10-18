@@ -1,0 +1,40 @@
+.div1{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    border: white solid;
+    border-radius: 20px;
+}
+.div2{
+    width: 450px;
+    position: relative;
+    left: 25px;
+    top: 30px;
+
+}
+
+body{
+    background: -webkit-linear-gradient(#FF1C1C, #FF5757, #FF9898);
+}
+
+img{
+    width: 125px;
+    height: 125px;;
+    border-radius: 50%;
+    position: relative;
+    left: 170px;
+}
+
+.div3{
+    border-style: solid;
+    border-width: 2px;
+    width: 50%;
+    left:  270px;
+    top: 250px;
+    position: relative;
+    background-color: white;
+    text-align: center;
+}
