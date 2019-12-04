@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Desenvolvimento WEB: Prova Prática 2</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <div>
+            
+                <p>Digite sua Primeira Nota: </p>
+                <input id="nota1" type="number" placeholder="digite sua nota...">
+                <p>Digite sua Segunda Nota: </p>
+                <input id="nota2" type="number" placeholder="digite sua nota...">
+                <p>Digite sua Terceira Nota: </p>
+                <input id="nota3" type="number" placeholder="digite sua nota...">
+                </br>
+                 </br>
+                <button onclick="PegarValor()" class="btn btn-success">Calcular</button>
+            
+        </div>
+        <script>
+
+            
+
+            function PegarValor(){
+               let n1 = document.getElementById("nota1").value;
+               let n2 = document.getElementById("nota2").value;
+               let n3 = document.getElementById("nota3").value;
+                CalcularNota(parseInt(n1),parseInt(n2),parseInt(n3));
+            }
+
+            function CalcularNota(n1, n2, n3){
+                let media = (n1+n2+n3)/3;
+
+                if(media >= 70){
+                     alert("Parabéns, você foi aprovado");
+                }else{
+                     alert("Parabéns, Você foi reprovado. Te vejo denovo no ano que vem");
+                }
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
